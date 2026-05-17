@@ -1,0 +1,22 @@
+{
+  "name": "longhai-restaurant-guide",
+  "version": "1.0.0",
+  "description": "龙海家园广场周边餐厅指南 - 在线版",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["restaurant", "guide", "longhai"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
